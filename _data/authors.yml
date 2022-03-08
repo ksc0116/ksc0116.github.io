@@ -2,21 +2,21 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
 soraji:
-  name:              sora ji
-  email:             wlthfk0211@gmail.com
+  name:              sungchan kim
+  email:             oeodo0116@naver.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    크롤링(java)과 웹개발(vue)을 주로합니다 ✿˘◡˘✿
+    차근차근 항상 노력해요!
 
   # This photo will be used in the about section
   picture:
-    src:             /assets/img/soraji.jpg
+    src:             /assets/img/Pom.jpg
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            /assets/img/soraji.jpg
-      2x:            /assets/img/soraji.jpg
+      1x:            /assets/img/Pom.jpg
+      2x:            /assets/img/Pom.jpg
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
@@ -26,7 +26,7 @@ soraji:
     # twitter:         <username>
     # google:          <number>
     # vk:              <username>
-    youtube:         UChw8-Vz55b-5ZZtsI_0I6uw
+    # youtube:         UChw8-Vz55b-5ZZtsI_0I6uw
     # vimeo:           <username>
     # vine:            <username>
     # spotify:         <user>/<number>
@@ -46,7 +46,7 @@ soraji:
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    github:          soraji
+    github:          ksc0116
     # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
@@ -57,8 +57,8 @@ soraji:
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
-    email:           mailto:wlthfk0211@gmail.com
-    rss:             https://soraji.github.io/feed.xml
+    email:           mailto:oeodo0116@naver.com
+    rss:             https://ksc0116.github.io/feed.xml
 
 # Another author
 mdo:
