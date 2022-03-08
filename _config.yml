@@ -2,32 +2,32 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               Sora
+title:               KSC
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
-url:                 https://soraji.github.io
+url:                 https://ksc0116.github.io
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
 baseurl:             ""
 
 # A very short description of your page
-tagline:             지소라 성장일지
+tagline:             차니의 공부일지
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  만드는걸 좋아해요. 크롤링(java)과 웹개발(vue)을 주로합니다 ✿˘◡˘✿
+  게임 개발을 위해 공부한 것을 올려요!
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              sora ji
-  email:             wlthfk0211@gmail.com
+  name:              sungchan kim
+  email:             oeodo0116@naver.com
 
 # Fallback image and color
-image:               /assets/img/purple.jpg
-color:               '#af69ee'
+image:               /assets/img/Blue.jpg
+color:               '#4641D9'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 font_heading:        "'Lato', 'Sans-serif'"
@@ -47,10 +47,10 @@ google_fonts:        Lato
 google_analytics:    #UA-92346434-1
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
-disqus_shortname:    https-soraji-github-io-1
+disqus_shortname:    https-ksc0116-github-io-1
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright:           '&copy; 2018. by sora'
+copyright:           '&copy; 2022. by KSC'
 
 # Format of the permalinks
 permalink:           pretty
