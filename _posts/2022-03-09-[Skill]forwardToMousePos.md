@@ -12,18 +12,20 @@ comments: true
 
 우선 코드부터 보자!
 
-```cs
+```csharp
     void Update()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         if(Physics.Raycast(ray,out hit))
         {
-            Vector3 mousePos = new Vector3(hit.point.x, transform.position.y, 																						hit.point.z);
+            Vector3 mousePos = new Vector3(hit.point.x, transform.position.y, hit.point.z);
             transform.forward= mousePos - transform.position;
         }
     }
 ```
+
+
 
 위 코드에서 가장 중요한 점은 hit.point를 바로 사용하는게 아니라 새로운 Vector3로 만들어서 사용하는 것이다.
 
