@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Basic] Input Field"
+title:  "[UI] Input Field"
 subtitle:   ""
 categories: Unity
 comments: true
