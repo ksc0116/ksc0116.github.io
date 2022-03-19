@@ -40,3 +40,23 @@ comments: true
 
 ​			역방향 운동학(IK) 손 끝이 움직이면 그에 맞춰 다른 부위의 위치도 함께 맞추는 방식(계단 오르내리는 애니)
 
+이제 애니메이션 레이어를 활용해보자
+
+우선 Base Layer의 기본 스테이트를 걷기로 해두고 레이러를 추가해서 상체는 다른 움직임을 하도록 해보겠다.
+
+(1) Avatar Mask 생성하고 이름을 UpperBodyAvatar로 설정
+
+(2) 생성한 아바타 마스크의 휴머노이드 탭에서 하체만 연동되지 않도록 설정해준다.
+
+![image](https://user-images.githubusercontent.com/101051124/159108295-22ad034e-8f48-4375-9a9a-5209bf9c8ff5.png)
+
+(3) 애니메이터 뷰에서 새로운 레이어를 생성해주고 이름을 UpperLayer로 바꾼다.
+
+(4) UpperLayer의 설정 버튼을 눌러 가중치(Weight)를 1로 설정하고 Mask에 방금 만든 UpperBodyAvatar를 넣어준다.
+
+(5) UpperLayer의 기본 스테이트를 Wait01(대기 자세)로 해준다.
+
+이제 게임을 실행하면 하체는 걷기 상체는 대기 애니메이션을 실행한다.
+
+![image](https://user-images.githubusercontent.com/101051124/159108441-6fe7f73f-4c02-431f-9833-3e30443e66d9.png)
+
