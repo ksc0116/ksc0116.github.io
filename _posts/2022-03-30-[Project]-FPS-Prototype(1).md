@@ -142,7 +142,7 @@ public class RotateToMouse : MonoBehaviour
         if (angle < -360) angle += 360;
         if (angle > 360) angle -= 360;
 
-        return Mathf.Lerp(angle, min, max);
+        return Mathf.Clamp(angle, min, max);
     }
 }
 ```
