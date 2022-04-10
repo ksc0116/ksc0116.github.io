@@ -53,7 +53,7 @@ public class DisableObj : MonoBehaviour
 }
 ```
 
-(8) TouchEffect 오브젝트에 DisableObj를 넣어주고 disableTime를 0.5로 설정하고 비활성화
+(8) TouchEffect 오브젝트에 DisableObj를 넣어주고 disableTime를 0.5로 설정하고 비활성화 한다.
 
 게임을 실행시키고 활성화 시키면 TouchEffect가 커졌다가 자동으로 사라지는 모습을 볼 수 있다.
 
